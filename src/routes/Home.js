@@ -56,6 +56,7 @@ const Home = ({ userObj }) => {
         currentTarget: { result },
       } = finishEvent;
       setAttachment(result);
+      console.log(result);
     };
     reader.readAsDataURL(theFile);
   };
